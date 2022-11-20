@@ -22,7 +22,7 @@ class Resultado : AppCompatActivity() {
         val idade: String = intent.getStringExtra(IDADE).toString()
         val imc: String = intent.getStringExtra(IMC).toString()
 
-        binding.tvResultImc.text = imc
+        binding.tvResultImcd.text = imc
 
 
     }

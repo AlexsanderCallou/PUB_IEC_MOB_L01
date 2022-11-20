@@ -54,7 +54,7 @@ class CalcImc : AppCompatActivity() {
             val textImc = result.roundToInt().toString()
             val intent = Intent(this, Resultado::class.java).apply {
                 putExtra(IMC, textImc)
-                putExtra(IDADE, isAdulto)
+                //putExtra(IDADE, isAdulto)
             }
             startActivity(intent)
         }else{
