@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PUC_IEC_MOB_L01</string>
+    <string name="desc_calcular_imc">Calcular IMC</string>
+    <string name="hint_peso">Peso em KG</string>
+    <string name="hint_altura">Altura em centrimetros</string>
+    <string name="lbl_adulto">Adulto</string>
+    <string name="lbl_idoso">Idoso</string>
+    <string name="bt_calcular">Calcular</string>
+
+    <string name="text_home">
+        Aplicativo para calcular IMC.\nDisciplina Desenvolvimento Mobile Fundamentos.\nAluno: Sebastião A F S Callou.\n
+    </string>
+
+    <string name="clique_lado">Clique no botão ao lado\npara calcular o seu IMC.</string>
+</resources>
