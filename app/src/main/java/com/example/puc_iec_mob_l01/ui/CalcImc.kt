@@ -15,7 +15,7 @@ class CalcImc : AppCompatActivity() {
 
     private lateinit var binding: ActivityCalcImcBinding
     private var result: Double = 0.0
-    private var isAdulto: String = "True"
+    private var isAdulto: String = "1"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
