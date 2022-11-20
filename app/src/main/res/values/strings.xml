@@ -6,10 +6,14 @@
     <string name="lbl_adulto">Adulto</string>
     <string name="lbl_idoso">Idoso</string>
     <string name="bt_calcular">Calcular</string>
+    <string name="tv_result">Resultado: </string>
 
     <string name="text_home">
         Aplicativo para calcular IMC.\nDisciplina Desenvolvimento Mobile Fundamentos.\nAluno: Sebastião A F S Callou.\n
     </string>
 
+
     <string name="clique_lado">Clique no botão ao lado\npara calcular o seu IMC.</string>
+
+    <string name="text_imc">Pesadao</string>
 </resources>
