@@ -43,6 +43,7 @@ class CalcImc : AppCompatActivity() {
         }
     }
     private fun callResult(){
+        recuperaIdade()
 
         if (!binding.etPeso.text.isNullOrBlank()
             && !binding.etAltura.text.isNullOrBlank()){
@@ -54,7 +55,7 @@ class CalcImc : AppCompatActivity() {
             val textImc = result.roundToInt().toString()
             val intent = Intent(this, Resultado::class.java).apply {
                 putExtra(IMC, textImc)
-                //putExtra(IDADE, isAdulto)
+                putExtra(IDADE, isAdulto)
             }
             startActivity(intent)
         }else{
@@ -63,8 +64,8 @@ class CalcImc : AppCompatActivity() {
     }
 
     companion object {
-        const val IMC = ""
-        const val IDADE = ""
+        const val IMC = "PARAMETRO_IMC"
+        const val IDADE = "PARAMETRO_IDADE"
     }
 }
 

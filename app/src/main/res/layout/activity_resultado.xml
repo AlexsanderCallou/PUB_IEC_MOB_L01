@@ -15,7 +15,7 @@
         android:text="@string/tv_result"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.050"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,13 +23,14 @@
         android:id="@+id/tvResultImcd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="00"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="@id/tvResult"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toEndOf="@id/tvResult"
-        app:layout_constraintTop_toTopOf="@id/tvResult" />
+        app:layout_constraintTop_toTopOf="@id/tvResult"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="00" />
 
     <View
         android:id="@+id/div"
