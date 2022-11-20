@@ -1,5 +1,6 @@
 package com.example.puc_iec_mob_l01
 
+import com.example.puc_iec_mob_l01.ui.CalcImc
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -14,4 +15,16 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+
+    @Test
+    fun testeCalc(){
+        val c = CalcImc()
+        val b = c.calcImc(112.6,176)
+
+        println(b)
+
+
+    }
+
 }
