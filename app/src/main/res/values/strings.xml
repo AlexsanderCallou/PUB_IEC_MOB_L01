@@ -15,5 +15,45 @@
 
     <string name="clique_lado">Clique no botão ao lado\npara calcular o seu IMC.</string>
 
-    <string name="text_imc">Pesadao</string>
-</resources>
+    <string name="text_abaixo">
+        IMC abaixo do Peso\n
+        Você está abaixo do peso ideal.\n
+        Isso pode ser apenas uma característica pessoal, mas também pode ser um sinal de desnutrição ou de algum problema de saúde.\n
+        Caso esteja perdendo peso sem motivo aparente, procure um médico.
+    </string>
+
+    <string name="text_normal">
+        IMC normal\n
+        Parabens voce está no peso ideal!
+    </string>
+
+    <string name="text_acima">
+        IMC acima do ideal\n
+        Voce está com sobre peso\n
+        Alguns quilos a mais já são suficientes para que algumas pessoas desenvolvam doenças associadas, como diabetes e hipertensão.\n
+        É importante rever seus hábitos. Procure um médico.
+    </string>
+
+    <string name="text_ob1">
+        Obesidade Grau 1\n
+        Cuidado Gordinho.
+
+
+    </string>
+
+    <string name="text_ob2">
+        Obesidade Grau 2\n
+        eita eita gordinho.
+
+
+
+    </string>
+
+    <string name="text_ob3">
+        Obesidade Grau 3\n
+        Vai morrer Gordinho.
+
+
+
+    </string>
+  </resources>

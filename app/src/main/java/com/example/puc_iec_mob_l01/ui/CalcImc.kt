@@ -52,7 +52,9 @@ class CalcImc : AppCompatActivity() {
             val altura = binding.etAltura.text.toString().toDouble()
 
             result = peso / ((altura*altura)/10000)
+
             val textImc = result.roundToInt().toString()
+
             val intent = Intent(this, Resultado::class.java).apply {
                 putExtra(IMC, textImc)
                 putExtra(IDADE, isAdulto)
